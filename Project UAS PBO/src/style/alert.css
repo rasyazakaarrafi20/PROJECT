@@ -1,0 +1,50 @@
+.modern-alert-root {
+
+    -fx-background-color: #111827;
+
+    -fx-background-radius: 25;
+
+    -fx-padding: 30;
+
+    -fx-border-color: #374151;
+
+    -fx-border-radius: 25;
+}
+
+.modern-alert-title {
+
+    -fx-text-fill: white;
+
+    -fx-font-size: 25px;
+
+    -fx-font-weight: bold;
+}
+
+.modern-alert-message {
+
+    -fx-text-fill: #d1d5db;
+
+    -fx-font-size: 15px;
+}
+
+.modern-alert-button {
+
+    -fx-background-color: #2563eb;
+
+    -fx-text-fill: white;
+
+    -fx-font-size: 14px;
+
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 12;
+
+    -fx-padding: 10 22;
+
+    -fx-cursor: hand;
+}
+
+.modern-alert-button:hover {
+
+    -fx-background-color: #3b82f6;
+}

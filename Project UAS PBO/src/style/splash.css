@@ -1,0 +1,62 @@
+.splash-root {
+
+    -fx-background-color:
+        linear-gradient(
+            to bottom right,
+            #050816,
+            #111827,
+            #1e293b
+        );
+}
+
+.splash-title {
+
+    -fx-font-size: 42px;
+
+    -fx-font-weight: bold;
+
+    -fx-text-fill: white;
+
+    -fx-letter-spacing: 3px;
+}
+
+.splash-subtitle {
+
+    -fx-font-size: 15px;
+
+    -fx-font-weight: bold;
+
+    -fx-text-fill: #bfbfbf;
+}
+
+.loading-text {
+
+    -fx-font-size: 14px;
+
+    -fx-text-fill: white;
+}
+
+.loading-bar {
+
+    -fx-accent: cyan;
+}
+
+.loading-bar .track {
+
+    -fx-background-radius: 20;
+
+    -fx-background-color:
+        rgba(255,255,255,0.1);
+}
+
+.loading-bar .bar {
+
+    -fx-background-radius: 20;
+
+    -fx-background-color:
+        linear-gradient(
+            to right,
+            #00f5ff,
+            #00b7ff
+        );
+}
